@@ -20,8 +20,6 @@ while i < len(travel_costs):
     j = 0
     while j < len(travel_costs[i]):
         min = travel_costs[i][j]
-        
-       
         j += 1
         if min > max:
             max = min
